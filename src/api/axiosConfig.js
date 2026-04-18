@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://campusconnect-backend-2trt.onrender.com',
+  baseURL: 'https://campusconnect-backend-2trt.onrender.com/api',
 });
 
 // Request interceptor to inject the JWT token
